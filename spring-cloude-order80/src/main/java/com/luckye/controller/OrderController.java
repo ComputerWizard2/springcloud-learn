@@ -14,7 +14,7 @@ import javax.annotation.Resource;
 public class OrderController {
 
     //真他妈的搞笑呀！！忘记加http Google浏览器给省略了，我就忘记加http协议了，
-    //public final static  String PATH_URL="http://localhost:8002/payment";
+    //public final static  String PATH_URL="http://localhost:800/payment";
     public final static  String PATH_URL= "http://CLOUD-PAYMENT-SERVICE/payment";
     @Resource
     RestTemplate restTemplate;
