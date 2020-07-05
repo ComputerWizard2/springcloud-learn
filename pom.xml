@@ -15,6 +15,7 @@
         <module>spring-eureka-server7002</module>
         <module>spring-privider-payment8002</module>
         <module>cloud-privider-payment8004</module>
+        <module>cloud-consummer-order80</module>
     </modules>
     <packaging>pom</packaging>
 
