@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-euraka-server7001" />
+        <module name="cloud-consummer-consul-order80" />
         <module name="spring-eureka-server7002" />
         <module name="spring-cloude-order80" />
         <module name="cloud-api-common" />
         <module name="cloud-consummer-order80" />
         <module name="spring-consumer-order80" />
         <module name="cloud-privider-payment8004" />
+        <module name="cloud-privider-consul-payment8005" />
         <module name="cloud-privider-payment8001" />
         <module name="spring-privider-payment8002" />
       </profile>

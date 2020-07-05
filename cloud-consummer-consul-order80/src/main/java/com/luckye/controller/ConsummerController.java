@@ -10,7 +10,7 @@ import javax.annotation.Resource;
 @RequestMapping("/consummer")
 public class ConsummerController {
 
-    public final static  String   SERVER_POR ="http://consul-provider-payment";
+    public final static  String   SERVER_POR ="http://consul-provider-payment/payment";
 
     @Resource
     RestTemplate restTemplate;
