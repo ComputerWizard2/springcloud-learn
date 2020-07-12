@@ -3,18 +3,24 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/cloud-api-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-api-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consummer-consul-order80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consummer-consul-order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consummer-order80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-consummer-order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-euraka-server7001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-euraka-server7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-hystrix-order80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-hystrix-order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-privider-consul-payment8005/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-privider-consul-payment8005/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-privider-payment8001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-privider-payment8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-privider-payment8004/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-privider-payment8004/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloude-order80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloude-order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-eureka-server7002/src/main/java" charset="UTF-8" />

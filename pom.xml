@@ -18,6 +18,9 @@
         <module>cloud-consummer-order80</module>
         <module>cloud-privider-consul-payment8005</module>
         <module>cloud-consummer-consul-order80</module>
+        <module>cloud-consumer-feign-order80</module>
+        <module>cloud-provider-hystrix-payment8001</module>
+        <module>cloud-hystrix-order80</module>
     </modules>
     <packaging>pom</packaging>
 

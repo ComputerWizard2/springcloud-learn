@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 @Slf4j
 @RestController
@@ -29,7 +30,9 @@ class PaymentController {
     private String serverPort;
 
     @RequestMapping("/create")
-    public CommonResult createPayment(@RequestBody Payment payment) {
+    public CommonResult createPayment(Payment payment) {
+
+        //payment.setSerial(serial);
         boolean flag = payementService.create(payment);
        log.debug("=======>插入的结果：" + flag);
         if (flag) {
@@ -90,6 +93,19 @@ class PaymentController {
 
 
         return services;
+
+    }
+    @RequestMapping("paymentFeignTimeOut")
+    public String paymentFeignTimeOut(){
+
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        return "请求成功！！！";
+
 
     }
 

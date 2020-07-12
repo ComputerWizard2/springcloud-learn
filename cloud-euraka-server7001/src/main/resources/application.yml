@@ -14,7 +14,7 @@ eureka:
       # 单机版的服务
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
       #集群版的注册服务
-      #defaultZone: http://eureka7002.com:7002/eureka/
-  server:
-    enable-self-preservation: false
+       #defaultZone: http://eureka7002.com:7002/eureka/
+  #server:
+   # enable-self-preservation: false
 

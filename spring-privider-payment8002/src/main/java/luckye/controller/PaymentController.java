@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.concurrent.TimeUnit;
+
 @Slf4j
 @RestController
 @RequestMapping("payment")
@@ -56,6 +58,19 @@ class PaymentController {
             return new CommonResult(200, "删除成功");
         }
         return new CommonResult(400, "删除失败");
+
+    }
+    @RequestMapping("/paymentFeignTimeOut")
+    public String paymentFeignTimeOut(){
+
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        return "请求成功！！！";
+
 
     }
 
